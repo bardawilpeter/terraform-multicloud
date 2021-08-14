@@ -21,7 +21,6 @@ variable "desired_count" {
 variable "lb_target_group_arn" {
   description = "Load balancer AWS ARN associated to this service"
   type        = string
-  default     = ""
 }
 
 variable "container_name" {
