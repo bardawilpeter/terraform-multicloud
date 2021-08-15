@@ -10,5 +10,5 @@ output "ecs_cluster_arn" {
 
 output "ecs_cluster_name" {
   description = "The ECS cluster"
-  value       = var.name
+  value       = var.name_prefix
 }
